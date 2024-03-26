@@ -5,6 +5,7 @@ var asset = document.querySelector('#assets');
 
 var dispaly = document.querySelector('#display');
 
+
 function cal() {
     if(gold.value !== '' || silver.value !== '' || cash.value !== '' || asset.value !== '') {
         var sum = +gold.value + +silver.value + +cash.value + +asset.value;
