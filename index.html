@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Zakat Calculator</h1>
+
+    <div class="container">
+        <div class="element">
+            <h4 class="element-head ">Gold: </h4>
+            <input type="number" id="gold" placeholder="How much Rs. of gold You have">
+        </div>
+        
+        <div class="element">
+            <h4 class="element-head ">Silver: </h4>
+            <input type="number" id="silver" placeholder="How much Rs. of silver You have">
+        </div>
+        
+        <div class="element">
+            <h4 class="element-head ">Cash: </h4>
+            <input type="number" id="cash" placeholder="How much cash You have">
+        </div>
+
+        <div class="element">
+            <h4 class="element-head ">Assets: </h4>
+            <input type="number" id="assets" placeholder="Enter your Assets">
+        </div>
+
+        <div class="result" id="result">
+            <h4 class="element-head ">Your Payable Zakat Amount: </h4>
+            <h4 id="display">
+            </h4>
+            <!-- <input type="number" id="display"> -->
+        </div>
+
+        <button onclick="cal()">Calculate</button>
+
+    </div>
+
+    
+<script src="App.js"></script>
+</body>
+</html>

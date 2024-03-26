@@ -1,0 +1,139 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',  sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    text-shadow: 3px 3px 2px  #3a4452;
+}
+
+body{
+    background-color: plum ;
+}
+input{
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+    padding-top: 3rem;
+}
+.element{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element-head{
+    margin-right: 2rem;
+}
+.result{
+    margin-top: 2rem;
+}
+.result input{
+    padding: 25px;
+    border: none;
+}
+
+button{
+    border: none;
+    margin-top: 2rem;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: white;
+} */
+
+/* Global Styles */
+
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    color: #0056b3;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.element {
+    margin-bottom: 15px;
+}
+
+.element-head {
+    margin: 5px 0;
+    color: #333333;
+}
+
+input[type="number"],
+button {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    display: none;
+}
+.result-show{
+    margin-top: 20px;
+    display: block;
+}
+
+.result input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333333;
+}   
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+@media(max-width: 475px){
+    .container{
+        background-color: #f5f5f5;
+        box-shadow: none;
+    }
+}
